@@ -12,6 +12,10 @@ A template for [GBDK-2020](https://github.com/Zal0/gbdk-2020) using Premake5
 - `\tools\build.bat` contains path variables for input, output, and the GBDK object files. These are not nessesary to edit.
 - The default `\generate.bat` is setup for Visual Studio 2017 but is fairly simple to switch to other build tools.
   - Refer to the [Premake5 modules](https://github.com/premake/premake-core/tree/master/modules) or the [wiki](https://github.com/premake/premake-core/wiki) for more information
+- Initiating a build will automatically launch the BGB emulator with the latest build of the ROM file in `/build/ROMS`
+  - [BGB Emulator](https://bgb.bircd.org/)
+  - Default path for BGB: `C:\\bgb\\bgb.exe`
+  - To edit which ROM to launch or the path of BGB, edit the postbuildcommands in `\premake.lua`
 
 # Building
 - Building should be rather simple since it uses its own binaries to compile and does not rely on your current operating system or build tools.
