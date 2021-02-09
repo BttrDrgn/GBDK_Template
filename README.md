@@ -1,5 +1,5 @@
 # GBDK Template
-A template for [GBDK-2020](https://github.com/Zal0/gbdk-2020) using Premake5
+GBDK Template aims to help users easily use and automate the entire Gameboy developement process using [GBDK-2020](https://github.com/Zal0/gbdk-2020) and [Premake5](https://premake.github.io/)
 
 # Cloning
 - Cloning this project is simple.
