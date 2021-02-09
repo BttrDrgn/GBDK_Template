@@ -4,6 +4,7 @@ GBDK Template aims to help users easily use and automate the entire Gameboy deve
 # Cloning
 - Cloning this project is simple.
   - `git clone https://github.com/BttrDrgn/GBDK_Template.git` 
+  - Or just click that `↓ Code` button and download as zip, unzip in your specified location.
 
 # Usage
 - You WILL need GBDK setup wherever you want. Default path is `C:\\gbdk\\`.
